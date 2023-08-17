@@ -3,7 +3,7 @@ const chatLog = document.getElementById('chat-log'),
     sendButton = document.getElementById('send-button'),
     buttonIcon = document.getElementById('button-icon'),
     info = document.querySelector('.info');
-const API_KEY = "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"
+const API_KEY = "API_KEY"
 
 sendButton.addEventListener('click', sendMessage);
 userInput.addEventListener('keydown', (event) => {
